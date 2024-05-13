@@ -1,0 +1,14 @@
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5rem;
+}
+
+p,.btn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.quote-container{
+    transform: translate(15px,15px);
+}
+#quote{
+    font-family:"Briem Hand", cursive;
+}

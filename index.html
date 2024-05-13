@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta > -->
+    <title>Quotes App</title>
+    <!-- favicon link -->
+    <link rel="icon" href="./images/quotes (1).png">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- google font link -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap">
+    <!-- bootstrab icons link -->
+    <link rel="stylesheet" href="./font/bootstrap-icons.min.css">
+    <!-- bootstrab link -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- css file -->
+    <link rel="stylesheet" href="./css/style.css">
+  
+
+</head>
+
+<body>
+<div class="containerr d-flex vh-100 justify-content-center align-items-center">
+    <div class="border-container d-flex bg-danger justify-content-center align-items-center rounded rounded-2">
+        <div class="quote-container  bg-danger-subtle d-flex flex-column justify-content-center align-items-center gap-3 fs-2  text-center py-4 px-3 rounded rounded-2">
+
+            <h1 class="text-danger-emphasis"><i class="fa-solid fa-quote-left fs-1 "></i>
+                Quote of the Day
+                <i class="fa-solid fa-quote-right fs-1"></i></h1>
+            <p class="text-danger-emphasis">Press the button below to recieve a random quote!</p>
+            <button class="btn btn-danger text-capitalize py-4 px-5 border border-3 border-danger-subtle shadow rounded rounded-4" onclick="generateRondomNum()">new
+                quote</button>
+
+                <div id="quote" class="text-danger"></div>
+        </div>
+    </div>
+   
+</div>
+  
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
